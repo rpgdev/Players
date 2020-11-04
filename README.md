@@ -34,6 +34,8 @@ To get the messages published to the topic run the following:
 $ bin/kafka-console-consumer.sh --topic novice-players --from-beginning --bootstrap-server localhost:9092
 ```
 
+### Running the Project
+
 To run the project using Maven execute the following:
 ```
  mvn spring-boot:run
